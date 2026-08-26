@@ -23,7 +23,7 @@ weatherForm.addEventListener("submit",async event =>{
     }
 });
 async function getWeatherData(city) {
-    const apiUrl = `http://localhost:5000/api/weather?city=${encodeURIComponent(city)}`;
+    const apiUrl = `/api/weather?city=${encodeURIComponent(city)}`;
 
     const response = await fetch(apiUrl);
 
