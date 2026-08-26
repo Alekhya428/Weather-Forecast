@@ -8,6 +8,10 @@ The Weather Forecast application allows users to enter a city name and get real-
 
 The application uses a JavaScript frontend and a Node.js/Express backend. The backend communicates with the OpenWeatherMap API to retrieve weather data and sends the required information back to the frontend.
 
+## 🚀 Live Demo
+
+[Weather Forecast App](https://weather-forecast-sy7r.onrender.com)
+
 ## ✨ Features
 
 - Search weather by city name
